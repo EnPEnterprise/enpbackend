@@ -27,7 +27,6 @@ schema_view = get_schema_view(
         default_version='v1',
         description="An api for services",
         terms_of_service="https://yourco/terms/",
-        service=openapi.Service(email="service@services.remote"),
         license=openapi.License(name="Test License"),
     ),
     public=True,
